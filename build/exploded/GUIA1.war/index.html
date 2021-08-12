@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E
+<html xmlns="http://www.w3.org/1999/xhtml%22%3E
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Primer Servlet</title>
+        <link rel="stylesheet" href="style.css">
+    <body>
+        <SCRIPT language=JavaScript> 
+            function go(){
+                if (document.form.password.value=='1234' && document.form.username.value=='admin'){ 
+                        document.form.submit(); 
+                        location.href="Ingreso_Correcto.html"
+                    } 
+                    else{ 
+                        alert("El ususario o la contraseña son incorrectos, vuelva a intentarlo");
+                    } 
+                } 
+        </SCRIPT> 
+        <FORM name=form action="/primerservlet" method="post">
+            <div class="login-box">
+                <h1>Login</h1>
+                <div class="textbox">
+                    <img src="user.png" class="user">
+                    <input type="text" placeholder="Username  " name="username">
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Contraseña   " name="password">
+                </div>
+                <div>
+                <input onclick=go() class="btn" type="button" value="Ingresar">
+                </div>
+            </div>
+        </FORM> 
+    </body>
+</html>
+
+
+
+
