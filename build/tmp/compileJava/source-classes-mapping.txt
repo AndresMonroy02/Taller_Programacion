@@ -1,0 +1,12 @@
+GUIA7/MySQLuserDAO.java
+ GUIA7.MySQLuserDAO
+GUIA7/DAOException.java
+ GUIA7.DAOException
+GUIA7/connecction.java
+ GUIA7.connecction
+GUIA7/userDAO.java
+ GUIA7.userDAO
+GUIA7/user.java
+ GUIA7.user
+GUIA7/DAO.java
+ GUIA7.DAO
